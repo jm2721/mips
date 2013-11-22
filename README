@@ -1,0 +1,11 @@
+Some fun MIPS assembly code!
+All this code is compatible with the spim MIPS simulator (http://pages.cs.wisc.edu/~larus/spim.html)
+To run, download spim and do:
+spim -file "filename.s"
+
+isqrt computes the integer square root of a number. This is the floor of the actual square root. The code is a MIPS port of the C code on the following wikipedia page: https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Binary_numeral_system_.28base_2.29.
+
+iter_fib.s computes the nth fibonacci number iteratively. n is read from standard input.
+recu_fib.s computes the nth fibonacci number recursively. It is slower than iter_fib.s for higher numbers. n is read from standard input.
+In iter_fib and recu_fib, the code in the main function was written by Peter Froehlich (http://gaming.jhu.edu/~phf/). I wrote all other
+subroutines.
